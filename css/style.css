@@ -1,0 +1,93 @@
+header .btn-outline-info{
+	right: 0px;
+	border-radius: 0px 5px 5px 0px ;
+	background-color: #fff;
+}
+h1{
+	color: #3f3a64;
+	font-size: 3rem;
+	font-weight: bold;
+}
+h2{
+	color: #3f3a64;	
+}
+h3{
+	color: #3f3a64;
+	font-size: 1.5rem;
+}
+.rod{
+    background-color: white;
+    border-radius: 0px 0px 350px;
+}
+.price{
+	color: #20ad96;
+}
+.youtube{
+	background-image:url("../img/home-2-popup-video-poster.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 1px;
+}
+.youtube .btn{
+	margin: 25% auto;
+}
+p{
+	color: #8c89a2;
+	font-size: 1.2em;
+}
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slider img {
+      width: 70%;
+	  display: block;
+	  margin: auto;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+    color: black;
+    }
+
+
+    /*.slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }*/
+.slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+.youtube.h-100 .btn.d-block.btn-danger {
+    background-color: rgba(255,0,4,0.00);
+}
+.youtube.h-100 .btn.d-block.btn-danger:hover  {
+    background-color: rgba(255,255,255,1.00);
+    border-radius: 10px;
+}
+.colorwebsit{
+	color: #8C89A2;
+}
+.colorwebsit:hover{
+	color: rgba(32,173,150,1.00);
+}
+
